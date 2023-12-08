@@ -27,7 +27,7 @@ My days are filled with lines of code, as I navigate through the intricacies of 
 
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Outside of the digital realm, you'll find me in the campus corridors, discussing tech trends or strumming my guitar to unwind. If you have exciting projects or just want to chat tech, feel free to drop me a message—I'm always up for it!
+    Outside of the digital realm, you'll find me in the campus corridors, discussing tech trends or capturing awesome moment. If you have exciting projects or just want to chat tech, feel free to drop me a message—I'm always up for it!
     </Text>
   </Fragment>
 );
