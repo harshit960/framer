@@ -7,9 +7,9 @@ import gamestackTexture from 'assets/gamestack-login.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
+import sprTextureLarge from 'assets/g.jpg';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import sprTexture from 'assets/g.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Video Editor', 'Designer',];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -68,7 +68,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
+        title="Developer"
         description="Design portfolio of Hamish Williams — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
@@ -83,9 +83,9 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        title="AfterMovie and Trailer"
+        description="Made multiple reels for the clients"
+        buttonText="View"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -104,9 +104,9 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
+        title="Reels"
+        description="Multipal short form video"
+        buttonText="View"
         buttonLink="https://gamestack.hamishw.com"
         model={{
           type: 'phone',
@@ -128,9 +128,9 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
+        title="Explainer Video"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        buttonText="View"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
